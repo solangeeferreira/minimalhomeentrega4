@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/*Body*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #e9e6e6;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  font-size: 2rem;
+  margin: 0.2rem;
+}
+
+/* Header */
+.encabezado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.encabezado .discount {
+  color: white;
+  background-color: rgba(191, 185, 174, 0.5);
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 6px;
+  margin: 0px;
+}
+
+/* Sección One */
+.oneConteiner {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 150px;
+  align-items: center;
+  padding: 5px;
+}
+.oneConteiner .menu {
+  flex: 25%;
+  font-size: 1rem;
+  color: white;
+}
+.oneConteiner .menu > li > a {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+}
+.oneConteiner .menu > li > a:hover {
+  color: #A38063;
+}
+.oneConteiner .menu nav {
+  align-items: flex-end;
+  word-spacing: 20px;
+  font-size: 2rem;
+}
+.oneConteiner .menu nav ul li {
+  text-emphasis-color: #A38063;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0;
+  display: inline;
+}
+.oneConteiner .logo {
+  flex: 50%;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+}
+.oneConteiner .logo h1 {
+  font-size: 3rem;
+}
+.oneConteiner .botonBusqueda {
+  flex: 25%;
+}
+.oneConteiner .botonBusqueda form input {
+  padding: 6px;
+  font-size: 14px;
+  float: left;
+  width: 75%;
+  background: none;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+}
+.oneConteiner .botonBusqueda form button {
+  float: left;
+  width: 25%;
+  padding: 6px;
+  background: rgba(191, 185, 174, 0.5);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 60px;
+  border: none;
+}
+.oneConteiner .botonBusqueda form button:hover {
+  background: #A38063;
+}
+
+/* Sección Two */
+.twoConteiner {
+  display: flex;
+  height: 500px;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.twoConteiner .two {
+  flex: 20%;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.twoConteiner .two .img1 {
+  width: 100%;
+}
+.twoConteiner .two:hover {
+  background-color: rgba(191, 185, 174, 0.8);
+}
+
+/* Footer */
+.piepagina {
+  background-color: #e9e6e6;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.piepagina .flecha > i {
+  font-size: 2rem;
+  color: #bfb9ae;
+}
+.piepagina .redes {
+  display: flex;
+  flex-direction: row;
+}
+.piepagina .redes > a > i {
+  color: #bfb9ae;
+}
+.piepagina .suscribe {
+  display: flex;
+  flex-direction: row;
+}
+.piepagina .suscribe .suscribetext {
+  color: black;
+  font-size: 0.8rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin: 1.2rem;
+}
+
+/*Tienda*/
+.card {
+  margin: 0.5rem;
+}
+.card .card-title {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 0.9rem;
+}
+.card .card-text {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #bfb9ae;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.card .btn {
+  font-family: "Montserrat", sans-serif;
+  align-content: center;
+  color: white;
+  text-align: center;
+  background-color: #bfb9ae;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  border-color: #bfb9ae;
+}
+.card .btn:hover {
+  color: white;
+  background-color: #a39d92;
+  border-color: #bfb9ae;
+}
+
+/*Sale*/
+.card-text1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+}
+
+/* Contacto */
+.row {
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.6rem;
+}
+.row .form-control {
+  font-size: 0.8rem;
+  font-family: "Montserrat", sans-serif;
+}
+.row .form-label {
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+}
+.row .botonEnviar {
+  width: 100%;
+  border-color: white;
+}
+.row .btn2 {
+  font-family: "Montserrat", sans-serif;
+  align-content: center;
+  color: white;
+  text-align: center;
+  background-color: #bfb9ae;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  border-color: #bfb9ae;
+  padding: 5px;
+  margin: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.row .btn2:hover {
+  color: white;
+  background-color: #a39d92;
+  border-color: #bfb9ae;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,18 @@
+//Colores
+
+$blanco: white;
+$negro: black;
+$beige: rgb(191, 185, 174);
+$beigeclaro: rgb(233, 230, 230);
+$beigehover: rgb(163, 157, 146);
+$marronhover: #A38063;
+
+/*Sale*/
+
+.card-text1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: $negro;
+    font-size: 0.9rem;
+    text-decoration: line-through;
+}

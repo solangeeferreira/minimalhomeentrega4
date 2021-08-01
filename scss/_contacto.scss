@@ -1,0 +1,52 @@
+//Colores
+
+$blanco: white;
+$negro: black;
+$beige: rgb(191, 185, 174);
+$beigeclaro: rgb(233, 230, 230);
+$beigehover: rgb(163, 157, 146);
+$marronhover: #A38063;
+
+/* Contacto */
+
+.row {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+
+    .form-control {
+        font-size: 0.8rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .form-label {
+        font-size: 0.9rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .botonEnviar {
+        width: 100%;
+        border-color: white;
+    }
+
+    .btn2 {
+        font-family: 'Montserrat', sans-serif;
+        align-content: center;
+        color: $blanco;
+        text-align: center;
+        background-color: $beige;
+        border-radius: 1.5rem;
+        font-size: 1rem;
+        border-color: $beige;
+        padding: 5px;
+        margin: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .btn2:hover {
+        color: $blanco;
+        background-color: $beigehover;
+        border-color: $beige;
+    }
+}

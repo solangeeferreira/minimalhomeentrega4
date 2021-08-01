@@ -1,0 +1,46 @@
+//Colores
+
+$blanco: white;
+$negro: black;
+$beige: rgb(191, 185, 174);
+$beigeclaro: rgb(233, 230, 230);
+$beigehover: rgb(163, 157, 146);
+$marronhover: #A38063;
+
+/*Tienda*/
+
+.card {
+    margin: 0.5rem;
+
+    .card-title {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: $negro;
+        font-size: 0.9rem;
+    }
+
+    .card-text {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: $beige;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+    .btn {
+        font-family: 'Montserrat', sans-serif;
+        align-content: center;
+        color: $blanco;
+        text-align: center;
+        background-color: $beige;
+        border-radius: 2rem;
+        font-size: 0.8rem;
+        border-color: $beige;
+    }
+
+    .btn:hover {
+        color: $blanco;
+        background-color: $beigehover;
+        border-color: $beige;
+    }
+}

@@ -1,0 +1,32 @@
+//Colores
+
+$blanco: white;
+$negro: black;
+$beige: rgb(191, 185, 174);
+$beigeclaro: rgb(233, 230, 230);
+$beigehover: rgb(163, 157, 146);
+$marronhover: #A38063;
+
+/* Sección Two */
+
+.twoConteiner {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+
+    .two {
+        flex: 20%;
+        padding: 10px;
+        flex-wrap: wrap;
+
+        .img1 {
+            width: 100%;
+        }
+    }
+
+    .two:hover {
+        background-color: rgba($beige, 0.8);
+    }
+}

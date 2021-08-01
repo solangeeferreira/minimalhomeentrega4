@@ -1,0 +1,94 @@
+//Colores
+
+$blanco: white;
+$negro: black;
+$beige: rgb(191, 185, 174);
+$beigeclaro: rgb(233, 230, 230);
+$beigehover: rgb(163, 157, 146);
+$marronhover: #A38063;
+
+/* Sección One */
+
+.oneConteiner {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 150px;
+    align-items: center;
+    padding: 5px;
+
+    .menu {
+        flex: 25%;
+        font-size: 1rem;
+        color: $blanco;
+
+        >li>a {
+            font-size: 1rem;
+            letter-spacing: 1px;
+            text-decoration: none;
+            color: $blanco;
+        }
+
+        >li>a:hover {
+            color: $marronhover;
+        }
+
+        nav {
+            align-items:flex-end;
+            word-spacing: 20px;
+            font-size: 2rem;
+
+            ul li {
+                text-emphasis-color: #A38063;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                letter-spacing: 0;
+                display: inline;
+            }
+        }
+    }
+    
+    .logo {
+        flex: 50%;
+        font-family: 'Montserrat', sans-serif;
+        color: $blanco;
+        text-align: center;
+
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    .botonBusqueda {
+        flex: 25%;
+
+        form {
+            
+            input {
+                padding: 6px;
+                font-size: 14px;
+                float: left;
+                width: 75%;
+                background: none;
+                font-family: 'Montserrat', sans-serif;
+                border: none;
+            }
+        
+            button {
+                float: left;
+                width: 25%;
+                padding: 6px;
+                background: rgba($beige, 0.5);
+                color: $blanco;
+                font-size: 14px;
+                cursor: pointer;
+                border-radius: 60px;
+                border: none;
+            }
+
+            button:hover {
+                background: $marronhover;
+            }
+        }
+    }
+}
